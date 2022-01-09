@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-# collection
+# collection -- is for creating new crud methods
 #member
 
 

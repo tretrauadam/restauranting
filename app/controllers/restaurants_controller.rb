@@ -12,7 +12,7 @@ class RestaurantsController < ApplicationController
   end
 
   def top
-    @restaurant = Restaurant.where(rating: 5)
+    @restaurants = Restaurant.where(rating: 5)
   end
 
   # GET /restaurants/new
