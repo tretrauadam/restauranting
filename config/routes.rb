@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-# collection -- is for creating new crud methods
-#member
+# collection -- is for creating new crud methods dont need id 
+#member i will have /restaurants/id
 
 
   resources :restaurants do
